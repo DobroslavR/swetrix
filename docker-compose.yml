@@ -25,7 +25,7 @@ services:
       - JWT_REFRESH_TOKEN_SECRET=jwt-refresh-token-secret
       - REDIS_HOST=redis
       - CLICKHOUSE_HOST=http://clickhouse
-      - API_ORIGINS=
+      - API_ORIGINS=*
       - EMAIL=test@test.com
       - PASSWORD=12345678
     links:
